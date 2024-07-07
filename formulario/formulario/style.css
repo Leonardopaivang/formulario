@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(https://frutiger-aero.org/img/frutiger-aero-6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-inline: 570px;
+    color: #0B8DEA;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.493);
+}
+
+.formulario{
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgb(56, 127, 233);
+    border-radius: 10px;
+    margin-top: 130px;
+    font-size: x-large;
+    padding: 50px;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: solid 1px rgba(0, 0, 0, 0.493);
+
+
+
+}
+button{
+    width: 180px;
+    height: 30px;
+    outline: none;
+    color: rgb(56, 127, 233);
+    background: rgb(135, 231, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+
+input{
+width: 95%;
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }

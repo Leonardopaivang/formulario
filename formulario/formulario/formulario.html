@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <div class="formulario">
+        <div class="name">
+            <label for="nome">Nome:</label><br>
+            <input class="input" id="nome" type="text" placeholder="Digite seu nome" required> 
+        </div>
+        <div class="data">
+            <label for="dataNascimento">Data de Nascimento:</label><br>
+            <input class="input" id="dataNascimento" type="date" required>
+        </div>
+        <div class="senha">
+            <label for="senha1">Senha:</label><br>
+            <input class="input" id="senha1" type="password" placeholder="Digite sua senha" required>
+        </div>
+        <div>
+            <label for="senha2">Confirme sua Senha:</label><br>
+            <input class="input" id="senha2" type="password" placeholder="Confirme sua senha" required>
+        </div>
+        <div class="cidade">
+            <label for="cidade">Cidade:</label><br>
+            <input autocomplete="off" class="input" id="cidade" type="text" placeholder="Digite sua cidade" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit" id="enviar" onclick="enviar()">Enviar</button>
+        </div>
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>
